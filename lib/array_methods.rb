@@ -23,7 +23,10 @@ describe "#using_reverse" do
 end
 
 def using_first(array)
-
+describe "#using_first" do 
+  it "takes in argument of an array and and returns the first element in the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_first(array)).to eq("wow")
 end
 
 def using_last(array)
