@@ -30,7 +30,10 @@ describe "#using_first" do
 end
 
 def using_last(array)
-
+describe "#using_last" do 
+  it "takes in argument of an array and and returns the last element in the array" do 
+    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+    expect(using_last(array)).to eq("arrays!")
 end
 
 def using_size(array)
